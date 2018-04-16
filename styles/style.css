@@ -1,0 +1,73 @@
+body {
+	margin: 0 auto;
+}
+
+.container {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header {
+    background-color: #00C4FF;
+}
+.header ul {
+    display: -webkit-flex;
+	display: flex;
+}
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+li {
+    width: 60px;
+	list-style-type: none;
+}
+
+.hero {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gallery img {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+}
+
+.gallery {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards div {
+	width: 200px;
+	padding-top: 20px;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+
+.utmost {
+	flex: 1;
+}
+.grow {
+	flex: 2;
+}
+
+	
